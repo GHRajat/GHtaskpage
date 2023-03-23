@@ -31,56 +31,62 @@
                   </svg>
             </a>
         </nav>
-      <form action="index.html" method="post">
+        <div class="form-container">
+      <form action="#" method="post">
         
         <fieldset>
         <h1> Add </h1>
-        <div id="img-preview">That picture</div>
+        <div class="content">
+        <div id="img-preview">
+        </div>
         <input type="file" id="typefile" name="typefile">
         <label for="typefile">Choose File</label>
         <br>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
         
-        <label for="name">Known as:</label>
-        <input type="text" id="character" name="user_character"> 
-          <br>
-         <label for="bio">Bio:</label>
-          <textarea id="bio" name="user_bio"></textarea>
-        <br>
-          <label>Age: <input type="number" id="age" name="user_age"></label>
-                    
-        <br>
-        
-         <label for="role">Role:</label>
-          <select id="role" name="user_role">
-            <optgroup label="Power">
-              <option value="frontend_developer">Front-End Developer</option>
-              <option value="php_developer">PHP Developer</option>
-              <option value="python_developer">Python Developer</option>
-              <option value="rails_developer">Rails Developer</option>
-              <option value="web_designer">Web Designer</option>
-              <option value="wordpress_developer">Wordpress Developer</option>
-            </optgroup>
-            <optgroup label="Skills">
-              <option value="android_developer">Android Developer</option>
-              <option value="ios_developer">IOS Developer</option>
-              <option value="mobile_designer">Mobile Designer</option>
-            </optgroup>
-          </select>
-          <br>
-          <label>Interests:</label>
-          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
-          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
-          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
-          
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter full name">
+          </div>
+          <div class="input-box">
+            <span class="details">Known As:</span>
+            <input type="text" placeholder="Enter alias" >
+          </div>
+          <div class="input-box">
+            <span class="details">Bio:</span>
+            <textarea id="bio" rows="5" cols="50"></textarea>
+          </div>
+          <div class="input-box">
+            <span class="details">Age: </span>
+            <input type="number" id="age">
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
          </fieldset>
        
         <button type="submit">Submit</button>
-        
+      </div>
        </form>
-
+      </div>
       <script src="js/addpage.js"></script>
       </div>
     </body>
