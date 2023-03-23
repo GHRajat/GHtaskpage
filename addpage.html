@@ -31,15 +31,13 @@
                   </svg>
             </a>
         </nav>
-      <div class="row">
-    <div class="col-md-12">
       <form action="index.html" method="post">
         
         <fieldset>
         <h1> Add </h1>
-        <img id="charimg" src="icon.ico" alt="char_image">
-        <input class="typefile" type="file" onchange="showimg(this);">
-            
+        <div id="img-preview">That picture</div>
+        <input type="file" id="typefile" name="typefile">
+        <label for="typefile">Choose File</label>
         <br>
 
         <label for="name">Name:</label>
@@ -82,9 +80,8 @@
         <button type="submit">Submit</button>
         
        </form>
-        </div>
-      </div>
-      <scripts src="js/addpage.js"></script>
+
+      <script src="js/addpage.js"></script>
       </div>
     </body>
 </html>

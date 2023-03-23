@@ -7,7 +7,7 @@
 body {
   max-height: 100vh;
   max-width: 100%;
-  background: #3268bd;
+  background: #1A2036;
   font-family:'Times New Roman', Times, serif;
 }
 
@@ -66,36 +66,47 @@ nav svg {
   margin-right: 2rem;
 }
 
-img{
+img {
   max-width: 180px;
   border-radius: 50px;
   background-color: #1A2036;
 }
 
-.typefile::-webkit-file-upload-button {
-  visibility: hidden;
+#img-preview {
+  display:none;
+  width: 155px;
+  border: 2px dotted #333;
+  margin-bottom: 20px;
 }
 
-.typefile::before {
-  content: 'Select some files';
-  display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
-  border: 1px solid #999;
+#img-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+input[type="file"] {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+input[type="file"] + label {
+  background: #3775df;
+  text-align: center;
+  padding: 10px 30px;
+  border: 2px solid #f44336;
   border-radius: 3px;
-  padding: 5px 8px;
-  outline: none;
-  white-space: nowrap;
-  user-select: none;
+  color: #fff;
   cursor: pointer;
-  text-shadow: 1px 1px #fff;
-  font-weight: 700;
-  font-size: 10pt;
+  transition: all 0.2s;
 }
 
-.typefile:hover::before {
-  border-color: black;
+input[type="file"] + label:hover {
+  background: #3775df;
+  color: #fff;
 }
-  
+
   input[type="text"],
   input[type="number"],
   textarea,
@@ -116,7 +127,7 @@ img{
     border-bottom: 5px #3ac162;
     font-size: 10px;
     margin: 15px 0;
-    padding: 15px 16px;
+    padding: 10px 12px;
     width: 25%;
   }
   
