@@ -113,13 +113,14 @@ nav svg {
 .inputSection input[type="number"] {
   height: 3rem;
   width: 100%;
+  appearance: textfield;
   border: 1px solid;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   font-size: 1.2rem;
 }
 
-.choosePhoto {
+.uploadPhoto {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -133,6 +134,7 @@ nav svg {
   width: 6rem;
   border: 0px solid;
   border-radius: 50%;
+  /* background-image: url('https://i.fbcd.co/products/resized/resized-750-500/563d0201e4359c2e890569e254ea14790eb370b71d08b6de5052511cc0352313.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -144,20 +146,20 @@ nav svg {
   border-radius: 50%;
 }
 
-.choosePhoto label {
+.uploadPhoto label {
   cursor: pointer;
   outline: 1px solid #a50000;
   padding: 0.6rem 0.8rem;
   color: #a50000;
 }
 
-.choosePhoto label:hover {
+.uploadPhoto label:hover {
   outline-color: #fff;
   color: #fff;
   background-color: #a50000;
 }
 
-.character-name input {
+.yourName input {
   font-size: 1.5rem;
   height: 3rem;
   width: 100%;
@@ -166,16 +168,7 @@ nav svg {
   border-radius: 0.5rem;
 }
 
-.character-alias input {
-  font-size: 1.5rem;
-  height: 3rem;
-  width: 100%;
-  padding: 0.2rem 0.5rem;
-  border: 1px solid;
-  border-radius: 0.5rem;
-}
-
-.bio textarea {
+.ourStory textarea {
   height: 3rem;
   width: 100%;
   text-align: start;
@@ -186,19 +179,19 @@ nav svg {
   font-family: sans-serif;
 }
 
-.intro-char label {
+.knowEachOther label {
   color: #a50000;
 }
 
-.intro-char input {
+.knowEachOther input {
   margin-left: 1rem;
 }
 
-.new-character label {
+.momo label {
   color: #a50000;
 }
 
-.new-character input {
+.momo input {
   margin-left: 1rem;
 }
 
@@ -258,7 +251,7 @@ nav svg {
 }
 
 .modalButtons button {
-  width: 3rem;
-  height: 1.5rem;
+  width: 4rem;
+  height: 2.5rem;
   color: #a50000;
 }
