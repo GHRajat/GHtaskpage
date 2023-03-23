@@ -247,42 +247,42 @@ nav svg {
 }
 
 .item1:hover {
-    background-image: url('');
+    background-image: url('images/ironman.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .item2:hover {
-    background-image: url('');
+    background-image: url('images/captain.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .item3:hover {
-    background-image: url('');
+    background-image: url('images/thor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .item4:hover {
-    background-image: url('');
+    background-image: url('images/hawkeye.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .item5:hover {
-    background-image: url('');
+    background-image: url('images/blackwidow.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .item6:hover {
-    background-image: url('');
+    background-image: url('images/hulk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
