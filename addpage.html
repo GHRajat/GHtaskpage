@@ -37,24 +37,22 @@
         
         <fieldset>
         <h1> Add </h1>
-        <img class="" src="myFile">
-        <input type="file" id="myFile" name="filename">
+        <img id="charimg" src="icon.ico" alt="char_image">
+        <input class="typefile" type="file" onchange="showimg(this);">
             
         <br>
 
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name">
         
-        <label for="name">Email:</label>
+        <label for="name">Known as:</label>
         <input type="text" id="character" name="user_character"> 
           <br>
          <label for="bio">Bio:</label>
           <textarea id="bio" name="user_bio"></textarea>
         <br>
-          <label>Age:</label>
-          <input type="radio" id="under_20" value="under_20" name="user_age"><label for="under_20" class="light">Under 20</label><br>
-          <input type="radio" id="over_35" value="over_35" name="user_age"><label for="over_35" class="light">Over 35</label>
-          
+          <label>Age: <input type="number" id="age" name="user_age"></label>
+                    
         <br>
         
          <label for="role">Role:</label>
@@ -86,6 +84,7 @@
        </form>
         </div>
       </div>
+      <scripts src="js/addpage.js"></script>
       </div>
     </body>
 </html>
