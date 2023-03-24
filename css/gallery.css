@@ -73,6 +73,30 @@ body {
     margin-right: 2rem;
 }
 
+.back {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+  gap: 1rem;
+}
+
+.back a {
+  height: 4rem;
+}
+
+.back a svg {
+  height: 100%;
+  width: 100%;
+  color: #B1B9D8;
+}
+
+.back h2 {
+  color: #a50000;
+  font-size: 2rem;
+}
+
 .top {
     margin-top: 1.5rem;
     display: flex;
