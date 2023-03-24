@@ -49,6 +49,10 @@ nav a:hover svg {
   color: #999;
 }
 
+nav a.active{
+  background: #666;
+  }  
+
 nav svg {
   color: #B1B9D8;
   height: 100%;
