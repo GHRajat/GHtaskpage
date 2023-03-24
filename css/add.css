@@ -198,6 +198,14 @@ nav svg {
   margin-left: 1rem;
 }
 
+.thisorthat label {
+  color: #a50000;
+}
+
+.thisorthat input {
+  margin-left: 1rem;
+}
+
 .submitForm {
   display: flex;
   flex-direction: column;
