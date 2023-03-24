@@ -26,10 +26,8 @@ modalOptNo.addEventListener("click", () => {
 
 const uploadPhotoBox = document.getElementById("uploadPhotoBox");
 const photoDisplayed = document.getElementById("photoDisplayed");
-console.log(photoDisplayed);
 
 uploadPhotoBox.addEventListener("change", (e) => {
-    // console.log(uploadPhotoBox)
     const uploadedFile = uploadPhotoBox.files[0];
     console.log(uploadedFile);
 
