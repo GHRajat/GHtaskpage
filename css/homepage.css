@@ -116,7 +116,7 @@ nav svg {
 
 .collection {
     margin-top: 1.5rem;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 /* different styles for card and list view */
