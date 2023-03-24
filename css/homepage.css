@@ -49,6 +49,11 @@ nav a:hover svg {
     color: #999999;
 }
 
+nav a.active{
+    background: #666;
+    }
+    
+
 .pointerDescription {
     visibility: hidden;
 }
